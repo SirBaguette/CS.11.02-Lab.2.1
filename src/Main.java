@@ -19,7 +19,7 @@ public class Main {
 
 
     // 2. add
-    public static int add2(int a, int b, int c, int d) {
+    public static int add(int a, int b, int c, int d) {
         return (add(add(a, b), add(c, d)));
     }
 
