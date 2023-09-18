@@ -26,7 +26,7 @@ public class Main {
 
     // 3. morningGreeting
     public static String morningGreeting(String name) {
-        return "早上好, " + name;
+        return "早上好, " + name + "!";
 
     }
 
@@ -34,7 +34,7 @@ public class Main {
     // 4. afternoonGreeting
 
     public static String afternoonGreeting(String name) {
-        return "下午好, " + name;
+        return "下午好, " + name + "!";
     }
 
     // 5. triple
@@ -45,20 +45,19 @@ public class Main {
     // 6. half
 
     public static double half(int a) {
-        return (a/2);
+        double b = a;
+        return (double) (b/2);
     }
 
     // 7. roundPositiveValueToNearestInteger
     public static int roundPositiveValueToNearestInteger(double a) {
-        int integer = (int) (a*2);
-        return (integer/2);
+        return (int) Math.round(a);
     }
 
 
     // 8. roundNegativeValueToNearestInteger
     public static int roundNegativeValueToNearestInteger(double a) {
-        int integer = (int) (a*2);
-        return (integer/2);
+      return (int) Math.round(a);
     }
 
 }
