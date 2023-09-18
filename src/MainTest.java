@@ -53,7 +53,7 @@ class MainTest {
 
     @org.junit.jupiter.api.Test
     void roundNegativeValueToNearestIntegerTwo() {
-        assertEquals(-8, Main.roundNegativeValueToNearestInteger(-8.5));
+        assertEquals(-9, Main.roundNegativeValueToNearestInteger(-8.5));
     }
 // this is the conventional rounding method, to round up. The method initially used here was asymmetrical rounding. For asymmetrical round I would just add -0.5 then convert.
 
